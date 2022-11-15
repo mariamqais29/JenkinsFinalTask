@@ -1,0 +1,54 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html dir="rtl" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Breaking News Ynet</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+    <style>
+        body {
+
+            font-family: Calibri, Helvetica, Calibri;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            margin-left: 5px;
+            margin-right: 5px;
+        }
+
+        .contentBox {
+            margin: 0 auto;
+            width: 60%;
+        }
+        table, th, td {
+            padding: 15px;
+            border: 1px solid #ce1530;
+            border-collapse: collapse;
+            border-color: #e0517c;
+            border-bottom: 1px solid #e0517c;
+
+
+
+        }
+        .logo {
+            width: 200px;
+            height: 100px;
+        }
+
+        .logo img {
+            height: 100%;
+            width: 100%;
+        }
+    </style>
+</head>
+<body dir="rtl">
+<h1 class="text-center" style="color: #ce1530"> Breaking News Ynet  </h1>
+<div class="contentBox">
+    <div th:action="@{/}" style="margin:0">
+
+        <p  th:utext="${FinalParsedFeed}"></p>
+
+    </div>
+</div>
+</body>
+</html>
