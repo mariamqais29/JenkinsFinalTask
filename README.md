@@ -6,6 +6,8 @@ http://www.ynet.co.il/Integration/StoryRss2.xml
 News XML in an HTML Table Format .
 the program runs on jdk 11; 
 To see the HTML Ynet Breaking News page enter after running the ynetRunner.java :localhost:2906 
+
+
 My Output :
 
 ![1](https://user-images.githubusercontent.com/66691418/201999680-c1b02668-bcc7-497e-b08d-58accfaac166.png)
