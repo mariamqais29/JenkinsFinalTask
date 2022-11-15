@@ -11,7 +11,7 @@ import java.net.MalformedURLException;
 import java.net.URL;
 
 /*
-    the class responsible for handling feeds
+    the class responsible for handling feeds from Ynet url 
  */
 public class FeedHandler {
 
