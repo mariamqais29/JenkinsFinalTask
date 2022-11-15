@@ -16,3 +16,5 @@ My Output :
 
 2- Create a Jenkins CI/CD pipeline Job to Build and Deploy (Run) the application on a new
 instance
+
+![WhatsApp Image 2022-11-15 at 22 53 11](https://user-images.githubusercontent.com/66691418/202025715-3ed7b051-bb4f-4dba-98ad-f7ae44d27f5b.jpg)
