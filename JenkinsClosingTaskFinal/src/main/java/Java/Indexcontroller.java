@@ -11,8 +11,8 @@ import org.springframework.web.servlet.ModelAndView;
 public class Indexcontroller {
 
     /*
-    The method stores returned  HTML string from the ReadFeeds method
-    and connects it with Ynet.html .
+    The method stores returned a HTML string from the ReadFeeds method
+    and connects it with Ynet.html
      */
     @RequestMapping
     public ModelAndView  rssForm(Model model) throws Exception {
