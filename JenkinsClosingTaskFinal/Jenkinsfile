@@ -27,7 +27,7 @@ pipeline {
              post {
                 //in case of success : send a success message to my channel in slack
                 success {
-                        slackSend channel: '#fursa', color: '#008000', message: 'Successfully built', tokenCredentialId: 'slacks'}
+                        slackSend channel: '#fursa', color: '#008000', message: 'Build Success', tokenCredentialId: 'slacks'}
                 //in case of failure : send a failure message to my channel in slack
                 failure {
                         slackSend channel: '#fursa', color: '#FF0000', message: 'Failed build', tokenCredentialId: 'slacks'}
